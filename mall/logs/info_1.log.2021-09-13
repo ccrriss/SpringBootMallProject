@@ -1,0 +1,405 @@
+[09:38:43:837] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h14m12s793ms770µs600ns).
+[19:19:36:969] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 10488 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[19:19:36:975] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:19:38:037] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[19:19:38:046] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[19:19:38:073] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[19:19:38:412] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[19:19:38:848] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[19:19:38:855] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[19:19:38:856] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:19:38:856] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:19:38:975] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:19:38:976] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1907 ms
+[19:19:39:774] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[19:19:39:929] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:19:40:557] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[19:19:40:572] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[19:19:40:605] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[19:19:40:904] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[19:19:40:923] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[19:19:40:926] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.304 seconds (JVM running for 8.785)
+[19:19:49:676] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:19:49:677] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:19:49:686] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[19:20:04:028] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[19:20:04:028] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:20:04:030] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[19:20:04:030] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@4c1474ab]
+[19:20:04:030] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[19:20:04:072] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[19:20:05:276] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[19:20:05:408] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[19:20:05:408] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@53b9d456
+[19:20:08:157] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[19:20:08:158] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:20:08:158] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[19:20:08:158] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@7c4df3e4, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2f28d0dc]
+[19:20:08:158] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:31:26:905] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:31:26:909] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:31:26:914] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:31:35:248] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 18128 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:31:35:285] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:31:36:224] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:31:36:227] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:31:36:257] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[22:31:36:585] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:31:37:122] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:31:37:132] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:31:37:132] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:31:37:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:31:37:268] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:31:37:269] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1935 ms
+[22:31:38:169] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:31:38:340] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:31:39:055] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:31:39:073] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:31:39:115] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:31:39:467] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:31:39:493] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:31:39:499] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.588 seconds (JVM running for 8.373)
+[22:33:03:302] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:33:10:426] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 17944 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:33:10:462] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:33:11:318] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:33:11:322] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:33:11:348] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[22:33:11:719] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:33:12:262] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:33:12:269] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:33:12:270] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:33:12:271] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:33:12:392] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:33:12:392] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1888 ms
+[22:33:13:268] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:33:13:424] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:33:14:051] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:33:14:068] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:33:14:104] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:33:14:419] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:33:14:439] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:33:14:441] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.356 seconds (JVM running for 7.327)
+[22:33:23:925] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:33:23:925] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:33:23:933] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[22:33:23:968] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:33:23:968] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:33:23:969] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:33:23:970] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@7646db3b]
+[22:33:23:970] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:33:24:031] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:33:24:154] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:33:24:243] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:33:24:243] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@5da0fd7d
+[22:33:27:527] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:33:27:527] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:33:27:527] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:33:27:527] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@1cb055a7, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@40c466e5]
+[22:33:27:527] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:33:27:531] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"45002","msg":"mkdir failed","data":null}
+[22:33:27:531] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@693e18bf
+[22:34:56:223] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:34:56:224] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:34:56:224] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:34:56:224] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@7f572c8e, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7190cd14]
+[22:34:56:224] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:34:56:227] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"45002","msg":"mkdir failed","data":null}
+[22:34:56:227] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@75af47fe
+[22:38:47:342] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:38:47:344] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:38:47:353] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:38:53:328] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 13576 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:38:53:361] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:38:54:217] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:38:54:221] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:38:54:253] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[22:38:54:573] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:38:55:060] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:38:55:069] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:38:55:070] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:38:55:071] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:38:55:197] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:38:55:197] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1794 ms
+[22:38:55:999] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:38:56:149] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:38:56:789] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:38:56:804] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:38:56:839] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:38:57:141] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:38:57:162] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:38:57:164] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.139 seconds (JVM running for 7.203)
+[22:39:02:444] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:39:02:444] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:39:02:452] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[22:39:02:483] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:39:02:483] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:39:02:485] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:39:02:485] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@1919c4a1]
+[22:39:02:485] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:39:02:527] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:39:02:659] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:39:02:738] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:39:02:738] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@6a60bdb1
+[22:39:05:021] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:39:05:021] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:39:05:021] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:39:05:022] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@93a532f, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@be9748f]
+[22:39:05:022] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:39:05:026] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"45002","msg":"mkdir failed","data":null}
+[22:39:05:027] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@73ae32d1
+[22:39:07:375] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:39:07:375] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:39:07:376] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:39:07:376] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@54f264b3, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5a35905d]
+[22:39:07:376] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:39:07:378] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"45002","msg":"mkdir failed","data":null}
+[22:39:07:378] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@5e0a0fc3
+[22:41:24:622] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:41:24:624] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:41:24:636] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:41:30:713] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 4780 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:41:30:746] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:41:31:593] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:41:31:597] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:41:31:622] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[22:41:31:897] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:41:32:340] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:41:32:347] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:41:32:348] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:41:32:349] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:41:32:472] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:41:32:473] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1687 ms
+[22:41:33:291] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:41:33:446] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:41:34:084] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:41:34:099] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:41:34:134] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:41:34:430] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:41:34:449] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:41:34:452] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.026 seconds (JVM running for 7.33)
+[22:41:52:228] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:41:52:228] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:41:52:242] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 14 ms
+[22:41:52:277] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:41:52:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:41:52:279] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:41:52:280] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@79fe8362]
+[22:41:52:280] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:41:52:327] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:41:52:463] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:41:52:586] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:41:52:587] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@67792e93
+[22:41:54:817] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:41:54:818] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:41:54:818] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:41:54:818] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@4c3905a1, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@aeb0077]
+[22:41:54:818] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:41:54:832] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":"http://localhost:8080/upload/5cd0dd33-b152-4252-a13e-7290485e7d66.png"}
+[22:41:54:832] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@3926f604
+[22:48:51:794] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:48:51:795] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:48:51:806] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:48:58:625] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 15692 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:48:58:629] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:48:59:518] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:48:59:522] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:48:59:546] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[22:48:59:813] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:49:00:264] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:49:00:271] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:49:00:271] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:49:00:272] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:49:00:392] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:49:00:392] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1686 ms
+[22:49:01:233] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:49:01:415] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:49:02:101] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:49:02:116] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:49:02:148] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:49:02:463] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:49:02:483] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:49:02:486] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.159 seconds (JVM running for 7.303)
+[22:49:32:621] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:49:32:622] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:49:32:630] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[22:50:00:888] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:50:00:888] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:50:00:890] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:50:00:890] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@3aa14d1f]
+[22:50:00:890] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:50:00:931] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:50:01:073] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:50:01:150] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:50:01:150] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@20f73a4
+[22:50:02:697] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:50:02:697] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:50:02:697] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:50:02:698] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@44f01db9, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4a4824a2]
+[22:50:02:698] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:50:02:729] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":"http://localhost:8080/upload/45a9a04b-4a66-45ea-b2ea-d4bb99c7aa5a.png"}
+[22:50:02:729] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@437896e7
+[22:52:39:439] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:52:39:440] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:52:39:451] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:52:49:208] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 18960 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:52:49:242] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:52:50:166] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:52:50:170] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:52:50:198] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[22:52:50:514] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:52:50:958] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:52:50:966] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:52:50:967] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:52:50:967] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:52:51:089] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:52:51:089] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1807 ms
+[22:52:51:913] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:52:52:063] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:52:52:712] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:52:52:727] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:52:52:763] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:52:53:067] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:52:53:089] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:52:53:093] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.224 seconds (JVM running for 7.215)
+[22:52:57:485] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:52:57:485] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:52:57:495] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[22:53:04:461] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:53:04:461] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:53:04:463] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:53:04:463] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@20b45d99]
+[22:53:04:463] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:53:04:527] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:53:04:644] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:53:04:722] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:53:04:723] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@216a8986
+[22:53:06:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:53:06:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:53:06:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:53:06:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@4f1b1112, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@4bf31f9e]
+[22:53:06:278] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:53:06:310] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":"http://localhost:8080/upload/ad591f05-f7b1-47eb-b289-e76f982cf7ae.png"}
+[22:53:06:310] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@4403a320
+[22:54:47:169] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:54:47:172] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:54:47:184] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:54:56:323] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 19932 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:54:56:364] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:54:57:244] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:54:57:248] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:54:57:273] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[22:54:57:553] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:54:57:997] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:54:58:005] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:54:58:005] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:54:58:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:54:58:125] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:54:58:125] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1705 ms
+[22:54:58:921] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:54:59:076] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:54:59:695] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:54:59:710] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:54:59:743] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:55:00:046] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:55:00:067] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:55:00:070] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.128 seconds (JVM running for 7.275)
+[22:55:05:189] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:55:05:189] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:55:05:197] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[22:55:05:230] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[22:55:05:230] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:55:05:232] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[22:55:05:232] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@433ee79]
+[22:55:05:232] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:55:05:274] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[22:55:05:389] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[22:55:05:469] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[22:55:05:469] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@428729f9
+[22:55:07:175] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/upload/image
+[22:55:07:176] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:55:07:176] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUploadImage
+[22:55:07:176] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@40ec226a, org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@511440b5]
+[22:55:07:176] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:55:07:194] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":"http://localhost:8080/upload/8091e8ca-66b9-4ccd-962a-d41c5b26c510.png"}
+[22:55:07:194] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@35db3c38
+[22:56:16:473] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[22:56:16:475] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[22:56:16:484] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[22:56:26:219] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 20248 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[22:56:26:252] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[22:56:27:095] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[22:56:27:098] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[22:56:27:123] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[22:56:27:477] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[22:56:27:995] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[22:56:28:003] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[22:56:28:003] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[22:56:28:004] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[22:56:28:128] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[22:56:28:128] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1836 ms
+[22:56:28:945] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[22:56:29:098] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[22:56:29:724] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[22:56:29:739] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[22:56:29:773] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[22:56:30:076] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[22:56:30:098] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[22:56:30:101] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.176 seconds (JVM running for 7.146)
+[22:56:32:902] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[22:56:32:902] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[22:56:32:911] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[23:08:41:250] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[23:31:15:447] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 14816 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[23:31:15:452] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[23:31:16:798] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[23:31:16:804] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[23:31:16:849] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[23:31:17:361] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[23:31:17:849] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[23:31:17:857] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[23:31:17:858] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[23:31:17:859] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[23:31:17:984] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[23:31:17:985] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2462 ms
+[23:31:19:023] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[23:31:19:199] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[23:31:19:982] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[23:31:19:998] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[23:31:20:037] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[23:31:20:371] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[23:31:20:391] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[23:31:20:394] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 5.647 seconds (JVM running for 10.152)
+[23:33:09:309] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[23:33:09:309] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[23:33:09:319] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[23:40:59:890] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[23:40:59:890] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[23:40:59:892] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[23:40:59:892] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@260e9a2b]
+[23:40:59:892] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[23:40:59:942] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[23:41:00:092] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[23:41:00:188] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[23:41:00:188] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@32533324
+[23:41:03:221] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/product
+[23:41:03:222] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[23:41:03:222] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminAddProduct
+[23:41:03:222] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.AddProductReq@4df205c3]
+[23:41:03:222] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[23:41:03:267] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[23:41:03:267] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@1e203b36
+[23:41:23:640] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/product
+[23:41:23:640] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[23:41:23:641] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUpdateProduct
+[23:41:23:641] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.UpdateProductReq@1b685cae]
+[23:41:23:641] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[23:41:23:655] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[23:41:23:655] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@34e042c8
+[23:42:26:339] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/product
+[23:42:26:340] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[23:42:26:340] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminDeleteProduct
+[23:42:26:340] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [44]
+[23:42:26:340] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[23:42:26:361] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[23:42:26:361] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.common.ApiRestResponse@1f363fdc

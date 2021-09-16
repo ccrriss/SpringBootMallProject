@@ -1,0 +1,218 @@
+[10:58:20:406] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h4m23s731ms906µs400ns).
+[11:18:35:695] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:18:35:697] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[11:18:35:710] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[11:18:46:513] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 18876 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[11:18:46:521] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:18:47:904] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:18:47:915] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:18:47:916] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:18:47:916] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:18:48:042] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:18:48:042] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1449 ms
+[11:18:48:975] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:18:49:422] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:18:49:449] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:18:49:454] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.239 seconds (JVM running for 5.232)
+[11:19:45:573] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:19:45:573] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:19:45:582] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[11:19:45:629] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[11:19:45:629] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[11:19:45:631] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[11:19:45:631] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@15cec98]
+[11:19:45:631] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[11:19:45:718] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[11:19:45:948] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[11:19:46:123] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[11:19:46:123] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=null}
+[11:19:50:852] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[11:19:50:853] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[11:19:50:853] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[11:19:50:853] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 123451, org.apache.catalina.session.StandardSessionFacade@15cec98]
+[11:19:50:853] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[11:19:50:860] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40001","msg":"User does not exist or password is wrong","data":null}
+[11:19:50:860] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40001', msg='User does not exist or password is wrong', data=null}
+[11:39:42:976] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:39:42:977] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[11:39:42:988] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[11:39:48:381] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 15844 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[11:39:48:422] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:39:49:581] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:39:49:590] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:39:49:591] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:39:49:591] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:39:49:705] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:39:49:706] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1233 ms
+[11:39:50:357] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:39:50:630] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:39:50:661] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:39:50:664] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.701 seconds (JVM running for 4.639)
+[11:40:09:161] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:40:09:162] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:40:09:169] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[11:40:09:200] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[11:40:09:200] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[11:40:09:201] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[11:40:09:202] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 123451, org.apache.catalina.session.StandardSessionFacade@e4ff39e]
+[11:40:09:202] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[11:40:09:241] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[11:40:09:355] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[11:40:13:803] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[11:40:13:803] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[11:40:13:803] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[11:40:13:804] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@e4ff39e]
+[11:40:13:804] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[11:40:13:866] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":11,"username":"test","password":null,"personalizedSignature":"","role":1,"createTime":1627052283000,"updateTime":1627052283000}}
+[11:40:13:867] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@196c1849}
+[11:42:03:293] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:42:03:294] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[11:42:03:302] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[11:42:08:063] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 25404 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[11:42:08:111] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:42:09:243] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:42:09:250] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:42:09:250] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:42:09:251] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:42:09:332] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:42:09:333] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1171 ms
+[11:42:09:958] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:42:10:235] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:42:10:254] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:42:10:257] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.541 seconds (JVM running for 4.418)
+[11:42:15:075] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:42:15:075] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:42:15:082] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[11:42:15:111] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[11:42:15:112] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[11:42:15:113] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[11:42:15:113] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@14df14a9]
+[11:42:15:113] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[11:42:15:154] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[11:42:15:318] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[11:42:15:437] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":11,"username":"test","password":null,"personalizedSignature":"","role":1,"createTime":1627052283000,"updateTime":1627052283000}}
+[11:42:15:438] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@7f4aaa66}
+[19:34:10:975] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[19:34:10:976] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[19:34:10:982] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[19:34:48:736] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 24916 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[19:34:48:793] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:34:49:863] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[19:34:49:870] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[19:34:49:871] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:34:49:871] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:34:49:947] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:34:49:947] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1102 ms
+[19:34:50:533] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:34:50:796] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[19:34:50:815] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[19:34:50:818] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.451 seconds (JVM running for 4.181)
+[19:34:57:663] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:34:57:663] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:34:57:670] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[19:34:57:719] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user
+[19:34:57:719] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:34:57:720] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**getUserById
+[19:34:57:721] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [1]
+[19:34:57:721] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  userId=1
+[19:34:57:759] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[19:34:57:879] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[19:34:57:975] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"id":1,"username":"1","password":"1","personalizedSignature":"3","role":1,"createTime":1576435053000,"updateTime":1581244872000}
+[19:34:57:975] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: com.chrisjia.mall.model.pojo.User@4e851624
+[19:36:00:796] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/update
+[19:36:00:796] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:36:00:796] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**updateSignature
+[19:36:00:797] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [testSignature, org.apache.catalina.session.StandardSessionFacade@100fe641]
+[19:36:00:797] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[19:36:00:799] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40010","msg":"User has not login yet","data":null}
+[19:36:00:799] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40010', msg='User has not login yet', data=null}
+[19:36:04:771] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[19:36:04:771] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:36:04:771] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[19:36:04:772] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@100fe641]
+[19:36:04:772] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[19:36:04:796] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":11,"username":"test","password":null,"personalizedSignature":"","role":1,"createTime":1627052283000,"updateTime":1627052283000}}
+[19:36:04:796] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@4e815c9a}
+[19:36:10:616] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/update
+[19:36:10:616] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:36:10:616] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**updateSignature
+[19:36:10:616] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [testSignature, org.apache.catalina.session.StandardSessionFacade@100fe641]
+[19:36:10:617] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[19:36:10:649] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[19:36:10:649] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=null}
+[19:36:22:161] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/login
+[19:36:22:162] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[19:36:22:162] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**login
+[19:36:22:162] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@100fe641]
+[19:36:22:162] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[19:36:22:175] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":11,"username":"test","password":null,"personalizedSignature":"testSignature","role":1,"createTime":1627052283000,"updateTime":1627126570000}}
+[19:36:22:176] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@60426d03}
+[21:49:04:204] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[21:49:04:207] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[21:49:04:214] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[21:49:09:957] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 23416 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[21:49:09:962] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[21:49:11:098] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[21:49:11:107] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[21:49:11:107] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[21:49:11:108] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[21:49:11:183] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[21:49:11:184] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1157 ms
+[21:49:12:065] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[21:49:12:352] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[21:49:12:374] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[21:49:12:380] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 3.061 seconds (JVM running for 4.86)
+[21:49:53:010] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[21:49:53:010] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[21:49:53:017] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[21:49:53:052] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[21:49:53:053] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[21:49:53:055] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[21:49:53:056] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test, 12345678, org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[21:49:53:056] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[21:49:53:098] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[21:49:53:221] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[21:49:53:326] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40011","msg":"User has no admin permission","data":null}
+[21:49:53:327] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40011', msg='User has no admin permission', data=null}
+[21:50:01:387] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[21:50:01:387] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[21:50:01:387] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[21:50:01:387] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[21:50:01:388] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[21:50:01:409] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"","role":2,"createTime":1627030089000,"updateTime":1627134573000}}
+[21:50:01:409] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@5b6a1c50}
+[21:54:07:933] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/logout
+[21:54:07:934] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[21:54:07:934] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**logout
+[21:54:07:934] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[21:54:07:935] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[21:54:07:941] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[21:54:07:942] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=null}
+[21:54:14:973] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/register
+[21:54:14:973] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[21:54:14:973] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**register
+[21:54:14:974] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [test1, 12345678]
+[21:54:14:974] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  username=test1&password=12345678
+[21:54:15:051] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[21:54:15:052] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=null}
+[21:54:18:897] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/update
+[21:54:18:897] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[21:54:18:898] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**updateSignature
+[21:54:18:898] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [testSignature, org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[21:54:18:898] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[21:54:18:900] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40010","msg":"User has not login yet","data":null}
+[21:54:18:900] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40010', msg='User has not login yet', data=null}
+[22:12:06:116] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[22:12:06:116] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:12:06:116] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[22:12:06:116] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[22:12:06:116] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:12:06:131] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"","role":2,"createTime":1627030089000,"updateTime":1627134573000}}
+[22:12:06:131] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@6c88c957}
+[22:12:11:696] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/user/update
+[22:12:11:696] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[22:12:11:696] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.UserController**updateSignature
+[22:12:11:696] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [testSignature, org.apache.catalina.session.StandardSessionFacade@1c6d548c]
+[22:12:11:697] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[22:12:11:719] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":null}
+[22:12:11:719] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=null}

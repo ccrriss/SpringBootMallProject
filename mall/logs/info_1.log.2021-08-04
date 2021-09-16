@@ -1,0 +1,117 @@
+[17:40:06:708] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:40:21:566] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 23844 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[17:40:21:569] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:40:23:581] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[17:40:23:600] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:40:23:601] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:40:23:602] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:40:23:788] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:40:23:789] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1945 ms
+[17:40:24:701] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:40:25:109] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:40:25:152] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:40:25:157] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 4.12 seconds (JVM running for 9.243)
+[17:40:54:548] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:40:54:548] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:40:54:558] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[17:41:55:866] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/addCategory
+[17:41:55:866] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:41:55:868] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminAddCategory
+[17:41:55:868] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.AddCategoryReq@17d9cbdb, org.apache.catalina.session.StandardSessionFacade@7d1d3a95]
+[17:41:55:868] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:41:55:880] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40010","msg":"User has not login yet","data":null}
+[17:41:55:881] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40010', msg='User has not login yet', data=null}
+[17:41:59:241] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[17:41:59:241] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:41:59:241] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[17:41:59:242] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@7d1d3a95]
+[17:41:59:242] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:41:59:409] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:41:59:700] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:41:59:922] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[17:41:59:922] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@1c949765}
+[17:42:48:806] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:42:48:808] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:42:48:855] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:42:55:816] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 2076 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[17:42:55:819] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:42:56:871] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[17:42:56:878] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:42:56:879] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:42:56:880] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:42:56:981] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:42:56:982] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1091 ms
+[17:42:57:610] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:42:57:887] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:42:57:918] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:42:57:922] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.391 seconds (JVM running for 5.735)
+[17:43:07:839] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:43:07:839] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:43:07:849] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[17:43:10:240] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[17:43:10:240] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:43:10:242] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[17:43:10:242] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@4d437d01]
+[17:43:10:242] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:43:10:288] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:43:10:409] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:43:10:476] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[17:43:10:476] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@59135a69}
+[17:48:52:074] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:48:52:075] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:48:52:085] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:48:58:598] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 34684 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[17:48:58:638] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:48:59:769] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[17:48:59:778] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:48:59:779] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:48:59:780] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:48:59:901] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:48:59:902] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1225 ms
+[17:49:00:577] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:49:00:899] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:49:00:933] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:49:00:936] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.682 seconds (JVM running for 6.226)
+[17:49:34:684] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:49:34:684] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:49:34:693] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[17:52:18:669] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[17:52:18:669] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:52:18:671] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[17:52:18:671] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@11031183]
+[17:52:18:672] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:52:18:746] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:52:18:933] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:52:19:061] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[17:52:19:062] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@37c9c35}
+[17:53:59:992] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:53:59:992] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:54:00:007] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:54:06:711] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 2492 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[17:54:06:750] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:54:07:815] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[17:54:07:823] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:54:07:824] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:54:07:825] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:54:07:947] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:54:07:947] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1154 ms
+[17:54:08:648] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:54:08:911] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:54:08:951] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:54:08:954] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.572 seconds (JVM running for 5.521)
+[17:54:14:984] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[17:54:14:984] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[17:54:14:992] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[17:56:11:904] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[17:56:18:753] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallApplication on ssHss-PC with PID 20704 (H:\projects\java\mall\target\classes started by ssHss in H:\projects\java\mall)
+[17:56:18:758] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[17:56:19:842] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[17:56:19:850] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[17:56:19:850] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[17:56:19:851] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[17:56:19:970] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[17:56:19:971] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1134 ms
+[17:56:20:834] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[17:56:21:109] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[17:56:21:142] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[17:56:21:145] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallApplication in 2.716 seconds (JVM running for 5.769)

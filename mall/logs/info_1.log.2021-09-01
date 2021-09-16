@@ -1,0 +1,25 @@
+[09:07:15:670] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h37m15s412ms664µs100ns).
+[17:28:22:019] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/category
+[17:28:22:028] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:28:22:029] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUpdateCategory
+[17:28:22:030] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.UpdateCategoryReq@1d1ecd0, org.apache.catalina.session.StandardSessionFacade@48f42594]
+[17:28:22:032] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:28:22:189] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"40010","msg":"User has not login yet","data":null}
+[17:28:22:189] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='40010', msg='User has not login yet', data=null}
+[17:28:26:318] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/login
+[17:28:26:318] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:28:26:318] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminLogin
+[17:28:26:318] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [admin, 12345678, org.apache.catalina.session.StandardSessionFacade@48f42594]
+[17:28:26:318] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:28:27:036] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:38) - res: {"code":"20000","msg":"success","data":{"id":10,"username":"admin","password":null,"personalizedSignature":"testSignature","role":2,"createTime":1627030089000,"updateTime":1627135931000}}
+[17:28:27:037] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:39) - res: ApiRestResponse{code='20000', msg='success', data=com.chrisjia.mall.model.pojo.User@3023766f}
+[17:28:54:951] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/category
+[17:28:54:951] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:28:54:952] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUpdateCategory
+[17:28:54:952] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.UpdateCategoryReq@6241aeb6, org.apache.catalina.session.StandardSessionFacade@48f42594]
+[17:28:54:952] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
+[17:31:58:219] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:29) - URL: http://localhost:8080/admin/category
+[17:31:58:219] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:30) - IP: 0:0:0:0:0:0:0:1
+[17:31:58:220] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:31) - Class Method: com.chrisjia.mall.controller.AdminController**adminUpdateCategory
+[17:31:58:220] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - Parameters: [com.chrisjia.mall.model.request.UpdateCategoryReq@115ef9e4, org.apache.catalina.session.StandardSessionFacade@48f42594]
+[17:31:58:220] [INFO] - com.chrisjia.mall.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - Parameters: queryString:  null
