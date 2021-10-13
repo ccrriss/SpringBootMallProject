@@ -49,4 +49,15 @@ public class GetProductListReq {
     public void setLimit(Integer limit) {
         this.limit = limit;
     }
+
+    @Override
+    public String toString() {
+        return "GetProductListReq{" +
+                "keyword='" + keyword + '\'' +
+                ", categoryId=" + categoryId +
+                ", orderby='" + orderby + '\'' +
+                ", page=" + page +
+                ", limit=" + limit +
+                '}';
+    }
 }

@@ -17,10 +17,10 @@ public class AdminFilterConfig {
     public FilterRegistrationBean adminFilterConfig(){
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
         filterRegistrationBean.setFilter(adminFilter());
-        filterRegistrationBean.addUrlPatterns("/admin/category");
+        filterRegistrationBean.addUrlPatterns("/admin/category/*");
 //        filterRegistrationBean.addUrlPatterns("/admin/product");
         filterRegistrationBean.addUrlPatterns("/admin/product/*");
-        filterRegistrationBean.addUrlPatterns("/admin/order");
+        filterRegistrationBean.addUrlPatterns("/admin/order/*");
         filterRegistrationBean.addUrlPatterns("/admin/upload/image");
         filterRegistrationBean.setName("adminFilterConf");
         return filterRegistrationBean;

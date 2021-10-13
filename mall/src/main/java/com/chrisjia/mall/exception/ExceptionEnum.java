@@ -20,11 +20,22 @@ public enum ExceptionEnum {
     PRODUCT_NOT_SELL_EXCEPTION("42010", "Product is not to sell"),
     PRODUCT_STOCK_INSUFFICIENT_EXCEPTION("42011", "Product stock is insufficient"),
 
+    CART_NOT_EXIST_EXCEPTION("43005", "Cart does not exist"),
     CART_NEGATIVE_COUNT_EXCEPTION("43008", "Cart count is under 0"),
+    CART_LIST_NOT_EXIST_EXCEPTION("43006", "Cart list do not exist"),
+    CART_SELECTED_STATUS_WRONG_EXCEPTION("43003", "Cart selected field is not matching"),
+
+    ORDER_STATUS_NOT_EXIST_EXCEPTION("44002", "Order status does not exist"),
+    ORDER_STATUS_WRONG_EXCEPTION("44003", "Order status is not the expected status"),
+    ORDER_LIST_NOT_EXIST_EXCEPTION("44006", "Order list do not exist"),
+    ORDER_NOT_EXIST_EXCEPTION("44005", "Order does not exist"),
+    ORDER_USER_ID_NOT_MATCH_EXCEPTION("44010", "Order's userId does not match"),
+    ORDER_STATUS_CANNOT_BE_CANCELLED_EXCEPTION("44011", "Order's current status cannot be cancelled"),
 
     FILE_NAME_EMPTY_EXCEPTION("45001", "Filename is empty"),
     MKDIR_FAIL_EXCEPTION("45002", "mkdir failed"),
     FILE_UPLOAD_FAIL_EXCEPTION("45003", "File upload failed"),
+
 
     INTERNAL_EXCEPTION("50000", "Server internal wrong");
 

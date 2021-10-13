@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 import java.security.NoSuchAlgorithmException;
 
-@Service("UserService")
+@Service("userService")
 @Transactional(propagation = Propagation.NOT_SUPPORTED, readOnly = true)
 public class UserServiceImpl implements UserService {
     @Resource

@@ -23,6 +23,7 @@ public class UserFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpSession session = ((HttpServletRequest)servletRequest).getSession();
         currentUser = (User)session.getAttribute(Constant.USER);
+        servletResponse.setContentType("application/json;charset=UTF-8");
         if(currentUser == null) {
             HttpServletResponse res = (HttpServletResponse)servletResponse;
             res.setContentType("application/json");
